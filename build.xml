@@ -1,0 +1,13 @@
+<project name="app">
+	<target name="build">
+		<fail/>
+		<javac srcdir="code">
+			<include name="*.java"/>
+		</javac>
+	</target>
+	<target name="everything">
+		<javac srcdir="code">
+			<include name="*.java"/>
+		</javac>
+	</target>
+</project>
